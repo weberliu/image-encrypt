@@ -1,0 +1,24 @@
+{
+  "name": "image-encrypt",
+  "version": "0.0.1",
+  "description": "Encrypt and decrupt image",
+  "main": "lib/index.js",
+  "repository": "https://github.com/weberliu/image-encrypt",
+  "author": "Weber Liu <weber.liu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "nacl-encrypt": "^1.0.2",
+    "pify": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1",
+    "rimraf": "^2.6.3"
+  }
+}
