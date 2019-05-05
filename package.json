@@ -13,11 +13,11 @@
   },
   "dependencies": {
     "base64-img": "^1.0.4",
+    "eslint": "^5.16.0",
     "nacl-encrypt": "^1.0.2",
     "pify": "^4.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
     "jest": "^24.7.1",
     "rimraf": "^2.6.3"
   }
